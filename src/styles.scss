@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
+@import "~quill/dist/quill.core.css";
+@import "~quill/dist/quill.snow.css";
 
 * {
   box-sizing: border-box;
@@ -134,7 +136,7 @@ hr {
 
   ul {
     display: flex;
-    
+
     li.active a {
       font-weight: bold;
       color: #333333;
